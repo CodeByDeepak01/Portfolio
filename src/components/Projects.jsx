@@ -39,32 +39,6 @@ function Projects() {
 
         <div className="projects-grid">
           {projects.map((project) => (
-            // <div className="project-card" key={project.name}>
-
-            //   <div className="project-image">
-            //     Project Screenshot
-            //   </div>
-
-            //   <h3>{project.name}</h3>
-
-            //   <p>{project.description}</p>
-
-            //   <div className="tech-stack">
-            //     {project.techStack.map((tech) => (
-            //       <span key={tech}>{tech}</span>
-            //     ))}
-            //   </div>
-
-            //   <div className="project-status">
-            //     {project.status}
-            //   </div>
-
-            //   <div className="project-buttons">
-            //     <button>GitHub</button>
-            //     <button>Live Demo</button>
-            //   </div>
-
-            // </div>
             <div className="project-card" key={project.name}>
               <div className="project-image">
                 <img src={project.image} alt={project.name} />
