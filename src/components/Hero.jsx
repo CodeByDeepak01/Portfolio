@@ -10,7 +10,7 @@ function Hero() {
       <div className="hero-content">
         <div className="hero-badge">Available for Internships</div>
 
-        <p>Hello, I'm</p>
+        <p class="greeting">Hello, I'm</p>
 
         <h1>Deepak</h1>
 
@@ -27,15 +27,27 @@ function Hero() {
         </div>
 
         <div className="hero-socials">
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/CodeByDeepak01"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub />
           </a>
 
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/deepak-18b74a310"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin />
           </a>
 
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://leetcode.com/u/CodeByDeepak/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <SiLeetcode />
           </a>
         </div>

@@ -1,6 +1,5 @@
 .about {
   padding: 100px 10%;
-  background: #07152b;
 }
 
 .about-container {
@@ -31,6 +30,8 @@
 .about h2 {
   font-size: 2.5rem;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
   color: white;
 }
 

@@ -11,7 +11,7 @@
   background: rgba(15, 23, 42, 0.95);
 
   -webkit-backdrop-filter: blur(10px); /* Safari */
-  backdrop-filter: blur(10px);         /* Chrome, Edge, Firefox */
+  backdrop-filter: blur(10px); /* Chrome, Edge, Firefox */
 
   z-index: 1000;
   border-bottom: 1px solid #1e293b;
@@ -63,4 +63,55 @@
 .resume-btn:hover {
   background: #38bdf8;
   color: #0f172a !important;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+
+    top: 80px;
+    right: -100%;
+
+    width: 250px;
+
+    background: #08152f;
+
+    flex-direction: column;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    transition: 0.3s ease;
+
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    right: 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-links a:hover {
+    color: #38bdf8;
+  }
 }
