@@ -1,5 +1,8 @@
 .contact {
   padding: 120px 10%;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+
 }
 
 .contact-header {
@@ -52,7 +55,7 @@
 }
 
 .contact-left p {
-  color: #cbd5e1;
+  color: var(--text-secondary);
   line-height: 1.8;
   font-size: 1.1rem;
 }
@@ -89,7 +92,7 @@
 
   background: rgba(255, 255, 255, 0.03);
 
-  color: white;
+  color: var(--text-primary);
 
   outline: none;
 
@@ -113,7 +116,7 @@
   font-size: 1rem;
   font-weight: 600;
 
-  color: white;
+  color: var(--text-primary);
 
   background: linear-gradient(135deg, #38bdf8, #0ea5e9);
 
@@ -146,7 +149,7 @@
   border-radius: 12px;
 
   text-decoration: none;
-  color: white;
+  color: var(--text-primary);
 
   background: rgba(255, 255, 255, 0.04);
 
@@ -162,4 +165,21 @@
 
 .contact-form:hover {
   box-shadow: 0 0 20px rgba(56, 189, 248, 0.15);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%;
+  }
+
+  .contact-left {
+    text-align: center;
+    align-items: center;
+  }
 }

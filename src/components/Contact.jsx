@@ -50,15 +50,29 @@ function Contact() {
               LeetCode
             </a>
 
-            <a href="mailto:deepakpal789557@gmail.com" className="contact-link">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=deepakpal789557@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
               <FaEnvelope />
-              Email
+              Gmail
             </a>
           </div>
         </div>
 
         <div className="contact-right">
-          <form className="contact-form">
+          <form
+            className="contact-form"
+            onSubmit={(e) => {
+              e.preventDefault();
+
+              alert(
+                "Thanks for reaching out! This contact form is still under development. Please use the Gmail link on the left to contact me directly.",
+              );
+            }}
+          >
             <input type="text" placeholder="Your Name" />
 
             <input type="email" placeholder="Your Email" />

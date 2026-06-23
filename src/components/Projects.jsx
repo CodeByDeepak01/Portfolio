@@ -34,8 +34,8 @@ function Projects() {
         <h2>Projects</h2>
 
         <p className="projects-subtitle">
-  Some of the projects I'm working on and building.
-</p>
+          Some of the projects I'm working on and building.
+        </p>
 
         <div className="projects-grid">
           {projects.map((project) => (
@@ -58,15 +58,25 @@ function Projects() {
                 <div className="project-status">{project.status}</div>
 
                 <div className="project-buttons">
-                  <button className="github-btn">
+                  <a
+                    href="https://github.com/CodeByDeepak01"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="github-btn"
+                  >
                     <FaGithub />
                     GitHub
-                  </button>
+                  </a>
 
-                  <button className="demo-btn">
+                  <a
+                    href="https://your-project-link.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="demo-btn"
+                  >
                     <FiExternalLink />
                     Live Demo
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

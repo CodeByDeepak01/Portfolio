@@ -1,5 +1,7 @@
 .about {
   padding: 100px 10%;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
 }
 
 .about-container {
@@ -32,13 +34,13 @@
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
-  color: white;
+  color: var(--text-primary);
 }
 
 .about p {
   font-size: 1.1rem;
   line-height: 1.9;
-  color: #cbd5e1;
+  color: var(--text-secondary);
   margin-bottom: 20px;
 }
 

@@ -1,5 +1,7 @@
 .skills {
   padding: 100px 10%;
+  background: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 .skills-container {
@@ -70,7 +72,7 @@
 }
 
 .skill-card p {
-  color: #cbd5e1;
+  color: var(--text-secondary);
   line-height: 1.7;
 }
 

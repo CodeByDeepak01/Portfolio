@@ -3,6 +3,7 @@ import profileImage from "../assets/images/profile.jpeg";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
@@ -12,9 +13,23 @@ function Hero() {
 
         <p class="greeting">Hello, I'm</p>
 
-        <h1>Deepak</h1>
+        <h1 className="hero-name">Deepak</h1>
 
-        <h2>Java Full Stack Developer</h2>
+        <TypeAnimation
+          sequence={[
+            "Java Full Stack Developer",
+            2000,
+            "Spring Boot Developer",
+            2000,
+            "Backend Developer",
+            2000,
+            "Problem Solver",
+            2000,
+          ]}
+          wrapper="h2"
+          speed={50}
+          repeat={Infinity}
+        />
 
         <p>
           I build scalable web applications using Java, Spring Boot, React, and
@@ -22,8 +37,20 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <button>View Projects</button>
-          <button>Download Resume</button>
+          <button
+            onClick={() => {
+              document.getElementById("projects").scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+          >
+            View Projects
+          </button>
+          <button
+  onClick={() => window.open("/resume.pdf", "_blank")}
+>
+  Download Resume
+</button>
         </div>
 
         <div className="hero-socials">

@@ -1,9 +1,10 @@
 import "./Navbar.css";
 
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaMoon, FaSun } from "react-icons/fa";
 import { useState } from "react";
 
-function Navbar() {
+
+function Navbar({ darkMode, setDarkMode }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -56,6 +57,9 @@ function Navbar() {
             </li>
           </ul>
         </nav>
+        <button className="theme-toggle" onClick={() => setDarkMode(!darkMode)}>
+          {darkMode ? <FaSun /> : <FaMoon />}
+        </button>
       </div>
     </header>
   );
