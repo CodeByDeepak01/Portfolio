@@ -28,30 +28,6 @@ const skills = [
     description: "Data Structures, Algorithms, LeetCode",
   },
   {
-    name: "HTML",
-    icon: <FaHtml5 />,
-    level: "Proficient",
-    description: "Semantic HTML, Forms, Accessibility",
-  },
-  {
-    name: "CSS",
-    icon: <FaCss3Alt />,
-    level: "Proficient",
-    description: "Flexbox, Grid, Responsive Design",
-  },
-  {
-    name: "JavaScript",
-    icon: <SiJavascript />,
-    level: "Proficient",
-    description: "ES6+, DOM, Async Programming",
-  },
-  {
-    name: "React",
-    icon: <FaReact />,
-    level: "Working Knowledge",
-    description: "Components, Hooks, State Management",
-  },
-  {
     name: "Spring Boot",
     icon: <SiSpringboot />,
     level: "Working Knowledge",
@@ -68,6 +44,30 @@ const skills = [
     icon: <TbApi />,
     level: "Working Knowledge",
     description: "CRUD Operations, API Integration",
+  },
+  {
+    name: "HTML",
+    icon: <FaHtml5 />,
+    level: "Proficient",
+    description: "Semantic HTML, Forms, Accessibility",
+  },
+  {
+    name: "CSS",
+    icon: <FaCss3Alt />,
+    level: "Proficient",
+    description: "Flexbox, Grid, Responsive Design",
+  },
+  {
+    name: "JavaScript",
+    icon: <SiJavascript />,
+    level: "Working Knowledge",
+    description: "ES6+, DOM, Async Programming",
+  },
+  {
+    name: "React",
+    icon: <FaReact />,
+    level: "Working Knowledge",
+    description: "Components, Hooks, State Management",
   },
   {
     name: "Git & GitHub",
