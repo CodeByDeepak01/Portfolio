@@ -3,7 +3,7 @@
 A modern, responsive, and interactive personal portfolio built with **React** and **Vite** to showcase my skills, projects, achievements, and professional journey as a **Java Backend / Full Stack Developer**.
 
 🔗 **Live Demo:** *(Add after deployment)*  
-📂 **Repository:** *(GitHub Repository Link)*
+📂 **Repository:** *(https://github.com/CodeByDeepak01/Portfolio)*
 
 ---
 
@@ -20,16 +20,6 @@ A modern, responsive, and interactive personal portfolio built with **React** an
 - 📬 Working Contact Form (EmailJS Integration)
 - 🔗 Social media links
 - 🎯 Clean and minimal design
-
----
-
-## 🖼️ Preview
-
-> Add screenshots after deployment.
-
-| Home Page | Projects |
-|-----------|----------|
-| *(Screenshot)* | *(Screenshot)* |
 
 ---
 
@@ -79,62 +69,14 @@ portfolio/
 
 ---
 
-## ⚙️ Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/YourUsername/portfolio.git
-```
-
-Move into the project directory
-
-```bash
-cd portfolio
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Start the development server
-
-```bash
-npm run dev
-```
-
----
-
-## 🏗️ Build for Production
-
-```bash
-npm run build
-```
-
-Preview production build
-
-```bash
-npm run preview
-```
-
----
-
 ## 📬 Contact
 
 Feel free to connect with me.
 
 - 📧 Email: **deepakpal789557@gmail.com**
-- 💼 LinkedIn: *(Your LinkedIn URL)*
-- 💻 GitHub: *(Your GitHub URL)*
-- 🧩 LeetCode: *(Your LeetCode URL)*
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
+- 💼 LinkedIn: *www.linkedin.com/in/deepak-18b74a310*
+- 💻 GitHub: *https://github.com/CodeByDeepak01/Portfolio)*
+- 🧩 LeetCode: *https://leetcode.com/CodeByDeepak*
 
 ---
 
