@@ -3,13 +3,42 @@ import "./Contact.css";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { TbBrandLeetcode } from "react-icons/tb";
 
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "portfolio_gmail",
+        "template_6m34uqg",
+        form.current,
+        "IGe-8W7Je47wEMic_",
+      )
+      .then(() => {
+        alert("Thank you! Your message has been sent successfully.");
+        form.current.reset();
+      })
+      .catch((error) => {
+        console.error("EmailJS Error:", error);
+
+        alert(
+          "Sorry! Something went wrong while sending your message. Please use the Gmail link on the left to contact me.",
+        );
+      });
+  };
+
   return (
     <section className="contact" id="contact">
       <div className="contact-header">
         <h2>Contact</h2>
         <p>Let's connect and build something amazing together.</p>
       </div>
+
       <div className="contact-container">
         <div className="contact-left">
           <h2>Let's Work Together</h2>
@@ -63,21 +92,22 @@ function Contact() {
         </div>
 
         <div className="contact-right">
-          <form
-            className="contact-form"
-            onSubmit={(e) => {
-              e.preventDefault();
+          <form ref={form} className="contact-form" onSubmit={sendEmail}>
+            <input type="text" name="name" placeholder="Your Name" required />
 
-              alert(
-                "Thanks for reaching out! This contact form is still under development. Please use the Gmail link on the left to contact me directly.",
-              );
-            }}
-          >
-            <input type="text" placeholder="Your Name" />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
 
-            <input type="email" placeholder="Your Email" />
-
-            <textarea rows="6" placeholder="Your Message"></textarea>
+            <textarea
+              name="message"
+              rows="6"
+              placeholder="Your Message"
+              required
+            ></textarea>
 
             <button type="submit">Send Message</button>
           </form>
