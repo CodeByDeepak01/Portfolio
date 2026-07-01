@@ -46,7 +46,7 @@ function Navbar({ darkMode, setDarkMode }) {
 
             <li>
               <a
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1og-xh0_0_0DvD_RXmu5iqCJx8xjEcHzx/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="resume-btn"

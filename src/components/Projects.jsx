@@ -3,27 +3,37 @@ import "./Projects.css";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 
+import leetmatricImage from "../assets/images/leetmatric.png";
+import PortfolioImage from "../assets/images/portfolio.png";
+import authifyImage from "../assets/images/authify.png";
+
 const projects = [
   {
-    name: "LeetCode Stats Tracker",
+    name: "LeetMatric",
     description: "Track LeetCode profile statistics and visualize progress.",
-    techStack: ["React", "JavaScript", "REST API", "CSS"],
+    techStack: ["HTML", "CSS", "JavaScript", "LeetCode GraphQL API"],
     status: "Completed",
-    image: "/projects/leetcode.png",
+    image: leetmatricImage,
+    githubUrl: "https://github.com/CodeByDeepak01/LeetMatric",
+    demoUrl: "https://leetmatric.vercel.app/",
   },
   {
     name: "Portfolio Website",
     description: "Modern portfolio website showcasing skills and projects.",
     techStack: ["React", "CSS", "Vite"],
     status: "Completed",
-    image: "/projects/portfolio.png",
+    image: PortfolioImage,
+    githubUrl: "https://github.com/CodeByDeepak01/Portfolio",
+    demoUrl: "https://your-portfolio-link.vercel.app/",
   },
   {
-    name: "Student Management System",
-    description: "Manage student records using Spring Boot and MySQL.",
-    techStack: ["Java", "Spring Boot", "MySQL"],
+    name: "Authify",
+    description: "Secure Authentication System.",
+    techStack: ["Java", "Spring Boot", "MySQL", "React", "Spring Security", "JWT", "REST API"],
     status: "In Progress",
-    image: "/projects/student-management.png",
+    image: authifyImage,
+    githubUrl: "https://github.com/CodeByDeepak01/Authify",
+    demoUrl: "https://Authify.vercel.app/",
   },
 ];
 
@@ -59,7 +69,7 @@ function Projects() {
 
                 <div className="project-buttons">
                   <a
-                    href="https://github.com/CodeByDeepak01"
+                    href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="github-btn"
@@ -69,7 +79,7 @@ function Projects() {
                   </a>
 
                   <a
-                    href="https://your-project-link.vercel.app"
+                    href={project.demoUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="demo-btn"

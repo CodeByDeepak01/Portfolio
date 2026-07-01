@@ -1,5 +1,6 @@
 import "./Hero.css";
-import profileImage from "../assets/images/profile.jpeg";
+// import profileImage from "../assets/images/profile.jpeg";
+import profileImage from "../assets/images/profile_pic.png";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
@@ -47,7 +48,7 @@ function Hero() {
             View Projects
           </button>
           <button
-  onClick={() => window.open("/resume.pdf", "_blank")}
+  onClick={() => window.open("https://drive.google.com/file/d/1og-xh0_0_0DvD_RXmu5iqCJx8xjEcHzx/view?usp=sharing", "_blank")}
 >
   Download Resume
 </button>

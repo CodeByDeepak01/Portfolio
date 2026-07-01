@@ -8,22 +8,27 @@ function About() {
           <h2>About Me</h2>
 
           <p>
-            I'm Deepak, a Computer Science Engineering student and aspiring
-            Java Full Stack Developer. I enjoy building modern web applications
-            and solving complex programming problems through Data Structures and
-            Algorithms.
+            I'm Deepak, a Computer Science Engineering student with a strong
+            foundation in Java, Data Structures & Algorithms, and Backend
+            Development. I am passionate about building secure, scalable, and
+            high-performance applications while continuously improving my
+            problem-solving and software engineering skills.
           </p>
 
           <p>
-            My primary tech stack includes Java, Spring Boot, React, JavaScript,
-            MySQL, Git, and GitHub.
+            My primary expertise is in Java, Spring Boot, REST APIs, MySQL, Git,
+            and GitHub, along with working knowledge of React, JavaScript, HTML,
+            and CSS. I enjoy designing robust backend systems that deliver
+            reliable and efficient solutions.
           </p>
 
           <p>
-            I have built projects using HTML, CSS, JavaScript, React, Java,
-            Spring Boot, REST APIs, and MySQL. My goal is to become a skilled
-            software engineer by continuously learning modern technologies and
-            building real-world solutions.
+            I have developed real-world backend-focused projects, including
+            secure authentication systems and RESTful web applications, to
+            strengthen my practical experience. Currently, I am seeking Software
+            Development Engineer (SDE) and Java Backend/Full Stack internship
+            opportunities where I can apply my skills, contribute to impactful
+            projects, and grow as a software engineer.
           </p>
         </div>
       </div>

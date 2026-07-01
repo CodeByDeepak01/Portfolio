@@ -114,8 +114,8 @@
 }
 
 .hero-image img {
-  width: 280px;
-  height: 280px;
+  width: 350px;
+  height: 400px;
   object-fit: cover;
 
   border-radius: 30px;
