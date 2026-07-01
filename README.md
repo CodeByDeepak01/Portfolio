@@ -75,7 +75,7 @@ Feel free to connect with me.
 
 - 📧 Email: **deepakpal789557@gmail.com**
 - 💼 LinkedIn: *www.linkedin.com/in/deepak-18b74a310*
-- 💻 GitHub: *https://github.com/CodeByDeepak01/Portfolio)*
+- 💻 GitHub: *https://github.com/CodeByDeepak01*
 - 🧩 LeetCode: *https://leetcode.com/CodeByDeepak*
 
 ---
