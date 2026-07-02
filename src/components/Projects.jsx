@@ -15,7 +15,7 @@ const projects = [
     status: "Completed",
     image: leetmatricImage,
     githubUrl: "https://github.com/CodeByDeepak01/LeetMatric",
-    demoUrl: "https://leetmatric.vercel.app/",
+    demoUrl: "https://leetmatric.com/",
   },
   {
     name: "Portfolio Website",
@@ -33,7 +33,7 @@ const projects = [
     status: "In Progress",
     image: authifyImage,
     githubUrl: "https://github.com/CodeByDeepak01/Authify",
-    demoUrl: "https://Authify.vercel.app/",
+    demoUrl: "https://authify.com/",
   },
 ];
 
