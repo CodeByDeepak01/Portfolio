@@ -24,7 +24,7 @@ const projects = [
     status: "Completed",
     image: PortfolioImage,
     githubUrl: "https://github.com/CodeByDeepak01/Portfolio",
-    demoUrl: "https://your-portfolio-link.vercel.app/",
+    demoUrl: "https://deepak-portfolio-zcj5.onrender.com",
   },
   {
     name: "Authify",
@@ -33,7 +33,7 @@ const projects = [
     status: "In Progress",
     image: authifyImage,
     githubUrl: "https://github.com/CodeByDeepak01/Authify",
-    demoUrl: "https://authify-demo.app/",
+    demoUrl: "https://authify.com/",
   },
 ];
 
