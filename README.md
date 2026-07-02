@@ -2,8 +2,8 @@
 
 A modern, responsive, and interactive personal portfolio built with **React** and **Vite** to showcase my skills, projects, achievements, and professional journey as a **Java Backend / Full Stack Developer**.
 
-🔗 **Live Demo:** *(Add after deployment)*  
-📂 **Repository:** *(https://github.com/CodeByDeepak01/Portfolio)*
+🔗 **Live Demo:** *https://deepak-portfolio-zcj5.onrender.com/*  
+📂 **Repository:** *https://github.com/CodeByDeepak01/Portfolio*
 
 ---
 
