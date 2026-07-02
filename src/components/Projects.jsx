@@ -33,7 +33,7 @@ const projects = [
     status: "In Progress",
     image: authifyImage,
     githubUrl: "https://github.com/CodeByDeepak01/Authify",
-    demoUrl: "https://authify.com/",
+    demoUrl: "https://authify-demo.app/",
   },
 ];
 
